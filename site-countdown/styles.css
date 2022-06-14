@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Libre Bodoni", sans-serif;
+  background-color: #e4b6b5;
+  color: #323335;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+h1 {
+  font-size: 3.5em;
+  line-height: 1.5em;
+  color: #f1f1f1;
+  text-shadow: grey 1px 1px 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 50%;
+  height: 100vh;
+  background-image: url(img/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e4b6b5;
+}
+
+.little-time-container {
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid #323335; */
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 30%;
+  background-color: rgba(255, 255, 255, 0.342);
+  margin: 1.5em;
+  text-shadow: grey 0.5px 0.5px 0.5px;
+}
+
+.all-time:not(:last-child) {
+  background: (blur(10px));
+}
+
+.all-time:not(:first-child) {
+  background: (blur(10px));
+}
+
+.bold-time {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.time-title {
+  margin: 0;
+}
